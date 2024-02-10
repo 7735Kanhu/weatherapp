@@ -67,7 +67,7 @@ function App() {
   useEffect(() => {
     getlocationHandler();
     // eslint-disable-next-line
-  }, []);
+  },[]);
 
   function getCurrentDate() {
     return new Date().toLocaleDateString("en-us", {
