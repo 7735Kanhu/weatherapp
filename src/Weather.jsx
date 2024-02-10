@@ -102,7 +102,7 @@ function App() {
             {weatherData?.weather[0].main}
           </h3>
           <hr />
-          <div className="flex gap-0 border-b-2">
+          <div className="flex gap-0 border-b-2 justify-between">
             <input
               type="text"
               placeholder="Type Your City Name"
